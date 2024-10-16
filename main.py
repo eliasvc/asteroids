@@ -19,6 +19,7 @@ def main():
                 return
 
         screen.fill(constants.RGB_BLACK)
+        p1.update(dt)
         p1.draw(screen)
         pygame.display.flip()
         # Frames per second
